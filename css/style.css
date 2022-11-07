@@ -202,10 +202,21 @@ li {
 }
 .paragr {
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 30px;
-letter-spacing: 0.03em;
-color: #757575;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+.red-social {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
 }
