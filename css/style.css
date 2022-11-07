@@ -1,5 +1,6 @@
 body {
-    font-family: "Roboto" "Raleway"
+    font-family: "Roboto", "Raleway", "sans-serif";
+    color: #757575;
       
 }
 .link:hover{
@@ -16,7 +17,7 @@ li {
     list-style: none;
   }
 
-.Web {
+.web {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -28,7 +29,7 @@ li {
 
 }
 
-.Estudio {
+.estudio {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -70,6 +71,7 @@ li {
     color: #FFFFFF;
     }
 .btn-principal {
+    cursor: pointer;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -170,6 +172,7 @@ li {
     color: #757575;
 }
 .lista {
+    cursor: pointer;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -181,6 +184,7 @@ li {
     background: #2196F3;
 }
 .listas {
+    cursor: pointer;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
