@@ -5,9 +5,17 @@ body {
 .link:hover{
     color: #2196F3;   
 }
-.btn-elemento:focus{
+.btn-elemento:focus,.btn-elemento:hover{
     color: white;
     background: #2196F3;
+}
+.listas:hover{
+    cursor: pointer;
+    background-color: #2196F3;
+}
+.btn-principal:hover {
+    cursor: pointer;
+    background-color: #2196F3;
 }
 :root{
     --color-principal: #757575;
@@ -85,7 +93,7 @@ li {
     align-items: center;
     text-align: center;
     background: #2196F3;
-    color: #FFFFFF;
+    color: var(--color-lineas);
 }
 .fondo {
     background: #2F303A;
@@ -177,7 +185,6 @@ li {
 }
 
 .listas {
-    cursor: pointer;
     font-family: var(--fuente-principal);
     font-style: normal;
     font-weight: 500;
